@@ -19,7 +19,7 @@ PROMPT_FILE = "system-prompt.txt"
 USER_LANG_FILE = "user_langs.json"
 
 MODEL_CONFIG = {
-    "name": "meta-llama/llama-3-8b-instruct:free",
+    "name": "google/gemma-2-9b-it:free",
     "base_url": "https://openrouter.ai/api/v1",
     "key": os.getenv("OPENROUTER_KEY"),
 }
